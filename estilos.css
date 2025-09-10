@@ -4,12 +4,11 @@ body {
   margin: 0;
   padding: 0;
 }
-
 .portda {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('images/angel.jpg');
+  background-image: url("images/angel.jpg");
   background-size: cover;
   height: 260px;
   color: white;
@@ -78,27 +77,30 @@ body {
   letter-spacing: 1.2px;
   display: inline-block;
 }
-
 .banner {
-  background-image: url('images/raptis.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 230px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
-  padding-right: 30px;
-  margin-bottom: 0;
+  background-image: url("images/raptis.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  /* viewport height o altura de la ventana gráfica */
+  height: 75vh;
+  margin: 0;
+  padding: 0;
+  flex-direction: row;
+  box-sizing: border-box;
 }
 
 .textbanner {
   max-width: 400px;
-  background-color: rgba(232, 62, 108, 0.85);
+  /*  background-color: rgba(232, 62, 108, 0.85); */
   padding: 28px 44px;
   color: white;
   border-radius: 8px;
   font-size: 16px;
+  margin-left: 600px;
 }
 
 .footer {
